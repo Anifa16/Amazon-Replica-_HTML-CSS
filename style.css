@@ -1,17 +1,23 @@
-*{
+body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0eded;
+    
 }
 .Sign-In{
-    width: 296px;
-    height: 240px; 
-    padding: 20px 26px;
+    width: 300px;
+    height: 230px; 
+    background-color: #f3f4f6; 
+    padding: 0;
     justify-content: space-around;
     flex-direction: column;
-    border: 1px salmon;
+    border: 1px rgb(240, 240, 243);
     border-radius: 4px;
-    margin: 20px auto 26px auto;
+    margin: 10px auto 20px auto;
+    padding: 0px 17px 13px; 
+    transform: translateY(-15px); 
+    
     
 }
 .Sign-In h1{
@@ -24,21 +30,26 @@
     padding-bottom: 2px;
     font-weight: 700;
 }
+.forgot{
+    padding-left: 120px;
+
+}
+    
 .Sign-In input{
-    width: 272px;
+    width: 280px;
     height: 25px;
     padding: 3px 7px;
-    background-color: white;
-    border-color: #a6a6a6;
+    background-color: rgb(253, 252, 252);
+    border-color: #a29e9e;
     border-radius: 3px;
     
     
 }
 .Sign-In button{
-    width: 288px;
-    height: 25px;
+    width: 300px;
+    height: 31px;
     padding: 3px 7px;
-    margin-top: 15px;
+    margin-top: 10px;
     background-color: rgb(241, 183, 83);
     border: 1px solid #a6a6a6;
     border-top-color: #949494;
@@ -55,17 +66,67 @@
     display: inline-block;
     content: "";
     border-top: 4px solid transparent;
+    border-left: 4px solid #b6b4b4;
     border-bottom: 4px solid transparent;
+    margin-top: 20px;
+    margin-right: 5px;
 
 }
-.btn{
-    display:flex;
-
-
+.contianer{
+    display: flex;
+    justify-content: center;
+    
 }
-.btn > div {
+.contianer hr{
+    display: flex;
+    width: 6%;
+    height: 5%;
+    margin-top: 10px;
+    color: #a6a6a6;
+    margin: 7px;
+}
+p{
+    display: flex;
+    color: gray;
+    margin-top: 20px;
+    padding: 0px 8px 0px 7p;
+    font-size: small;
+}
+.btn button{
+    display: flex;
+    justify-content: center;
     width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
+    height: 29px;
+    margin: 15px auto;
+    padding: 0px 20px 0px 20px;
+    padding-top: .3%;
+    background-color: #afacac;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 5px;
+    
+}
+footer .footies{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 250px;
+    margin:25px auto 15px auto;
+
+}
+footer .footies a{
+    font-size: 12px;
+
+}
+.footies ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px 7px;
+    margin-top: 15px;
+
+}
+h6{
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+}
